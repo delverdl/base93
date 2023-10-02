@@ -22,7 +22,7 @@ int main()
 
     //OUT
     std::cout << "OUT DATA" << std::endl << "--------" << std::endl;
-    t = Base93::toBuffer(r);
+    t = Base93::toString(r);
     std::cout << "BACK    : " << t << std::endl;
     std::cout << std::endl;
 }

@@ -148,7 +148,7 @@ public:
 		return r;
 	}
 
-	static str_t toBuffer(const b93_t &str)
+	static str_t toString(const b93_t &str)
 	{
 		str_t r;
 
